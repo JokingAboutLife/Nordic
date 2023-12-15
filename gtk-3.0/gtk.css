@@ -2638,9 +2638,9 @@ window:not(.tiled):not(.maximized) separator:first-child + headerbar:backdrop, w
 window:not(.tiled):not(.maximized) headerbar:last-child:backdrop, window:not(.tiled):not(.maximized) headerbar:last-child {
   border-top-right-radius: 4px; }
 
-window {
+/* window {
   border-top-left-radius: 4px;
-  border-top-right-radius: 4px; }
+  border-top-right-radius: 4px; } */
 
 window.csd > .titlebar:not(headerbar) {
   padding: 0;
